@@ -54,7 +54,8 @@ $router->post('/api-tests', function (Request $request) {
             $createPaymentRequest->setAmount(100.00);
             $createPaymentRequest->setCurrency('TL');
             $createPaymentRequest->setInstallmentNumber(1);
-            $createPaymentRequest->setClientIp('192.168.1.116');
+            $createPaymentRequest->setClientIp('88.240.10.5');
+            $createPaymentRequest->setClientPort('51520');
             $createPaymentRequest->setOtherTrxCode('3D5ABC24-456');
             $createPaymentRequest->setIsPoolPayment(0);
             $createPaymentRequest->setIsTokenized(0);
