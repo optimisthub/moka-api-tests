@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1867be3791e78a636e120d703fc8ddd",
+    "content-hash": "89b42a2a26f48e4fc1c099760ead3921",
     "packages": [
         {
             "name": "brick/math",
@@ -2237,16 +2237,16 @@
         },
         {
             "name": "moka/moka-php",
-            "version": "1.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/optimisthub/moka-php.git",
-                "reference": "cd84639064d407db8f05a63152f3c0629e528dea"
+                "reference": "3dd6b4c28dde5729890b10550572fd722c606d0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/optimisthub/moka-php/zipball/cd84639064d407db8f05a63152f3c0629e528dea",
-                "reference": "cd84639064d407db8f05a63152f3c0629e528dea",
+                "url": "https://api.github.com/repos/optimisthub/moka-php/zipball/3dd6b4c28dde5729890b10550572fd722c606d0d",
+                "reference": "3dd6b4c28dde5729890b10550572fd722c606d0d",
                 "shasum": ""
             },
             "require": {
@@ -2264,7 +2264,7 @@
             "license": [
                 "MIT"
             ],
-            "description": "Moka PHP Client",
+            "description": "Moka United PHP Client",
             "keywords": [
                 "moka",
                 "moka api",
@@ -2273,9 +2273,9 @@
             ],
             "support": {
                 "issues": "https://github.com/optimisthub/moka-php/issues",
-                "source": "https://github.com/optimisthub/moka-php/tree/1.1"
+                "source": "https://github.com/optimisthub/moka-php/tree/1.3.0"
             },
-            "time": "2023-01-26T01:05:44+00:00"
+            "time": "2026-09-18T13:39:46+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -6902,12 +6902,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.1"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
